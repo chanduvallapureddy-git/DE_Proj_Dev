@@ -1,0 +1,21 @@
+{
+	"name": "OnpremSqlServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-8VHQNHQO",
+			"database": "Adventurework",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "adf_de_proj",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4NjhjODk2Mi1kMTA0LTQyZGEtOTgwYi0yNjY1YzlhOGM0MWEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "OnpremSelfhostedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

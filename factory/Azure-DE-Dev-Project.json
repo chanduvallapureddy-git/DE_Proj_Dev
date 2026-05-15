@@ -1,0 +1,15 @@
+{
+	"name": "Azure-DE-Dev-Project",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b6eeb3d8-25fb-4929-992f-cbe36eefb17c",
+		"tenantId": "10f2fa2d-cc5a-4e54-a2a4-88ed2dda3519"
+	}
+}
