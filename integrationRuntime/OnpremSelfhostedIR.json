@@ -1,6 +1,9 @@
 {
 	"name": "OnpremSelfhostedIR",
 	"properties": {
-		"type": "SelfHosted"
+		"type": "SelfHosted",
+		"typeProperties": {
+			"selfContainedInteractiveAuthoringEnabled": false
+		}
 	}
 }
